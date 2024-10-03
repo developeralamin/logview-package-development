@@ -1,0 +1,28 @@
+{
+    "name": "alamindev/logviewer",
+    "description": "Log Viewer is a package for Laravel allowing you to easily read and manage your Laravel logs",
+    "type": "library",
+    "authors": [
+        {
+            "name": "alamin",
+            "email": "alamincsetpi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alamin\\Logviewer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alamin\\Logviewer\\LogViewerServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "alamin/logviewer": "dev-master"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
