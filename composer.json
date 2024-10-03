@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "alamin/logviewer": "dev-master"
+        "alamindev/logviewer": "dev-master"
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
