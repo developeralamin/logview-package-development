@@ -5,4 +5,4 @@
 Install the package via Composer:
 
 ```bash
-composer require twitesoft/logviewer
+composer require alamindev/logviewer
